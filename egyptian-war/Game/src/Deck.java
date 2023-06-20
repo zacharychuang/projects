@@ -14,7 +14,7 @@ public class Deck {
 
     private void makeDeck() {
         String[] suits = {"hearts", "diamonds", "spades", "clubs"};
-        String[] nums = {"two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "jack", "queen", "king", "ace"};
+        String[] nums = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king", "ace"};
         for(String suit : suits) {
             for(String num : nums) {
                 Card newCard = new Card(suit, num);

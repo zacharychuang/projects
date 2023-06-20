@@ -15,6 +15,12 @@ public class Hand {
         size++;
     }
 
+    public Card removeFirst() {
+        Card removedCard = hand.removeFirst();
+        size--;
+        return removedCard;
+    }
+
     public void printHand() {
         for(Card card : hand) {
             System.out.println(card);
